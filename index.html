@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closed Sea</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/icon.ico">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="landing">
+        <nav>
+            <div class="row">
+                <div class="nav__container">
+                    <a href="#" class="logo-anchor">
+                        <img src="./assets/logo.png" alt="logo" class="logo">
+                    </a>
+                    <ul class="nav__links">
+                        <li class="nav__link"><a href="#" class="nav__link--anchor hover-underline-animation">Home</a>
+                        </li>
+                        <li class="nav__link"><a href="#" class="nav__link--anchor hover-underline-animation">Search</a>
+                        </li>
+                        <li class="nav__link"><a href="#" class="nav__link--anchor nav__link--primary">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header-search">
+            <div class="row">
+                <h1>Search for NFT assets owned by an address</h1>
+                <input type="text" placeholder="Owner's Address" class="header-search__input" onchange="fetchData(event)">
+                <button type="submit" class="header-search__btn" onchange="fetchData('text')"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+    <section id="results">
+        <div class="row">
+            <h2 class="results__title"></h2>
+            <div class="assets">
+                <!--HERE-->
+                <!--<div class="asset">
+                    <div class="asset__img--wrapper"><img class="asset__img"
+                            src="https://lh3.googleusercontent.com/ye_Zv3ZXfoKqhMIYc35GcThZOvlGs2Mir-nZTqvXIrw-Hb97O1VHHTLDXfH7hIQ6N1zOMGfNq2g9J6ByYZhC65pHLM89puPzwIIFrg"
+                            alt=""></div>
+                    <div class="asset__name">Super Yeti #0
+                        <span class="asset__description">SuperYeti is a 3D collection of randomized characters created
+                            through a standard ERC-721 contract and backed by IPFS file storage and registered on the
+                            Ethereum Blockchain. Future implementation of a multiplayer, play-to-earn game where
+                            SuperYetis own land, breed and compete with one another to protect the Yetiverse. You can
+                            learn more at www.superyeti.co</span>
+                    </div>
+                    <div class="asset__slug">slug : superyeti</div> -->
+                    <div class="loading">
+                        <i class="fas fa-spinner loading--spinner"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
