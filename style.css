@@ -109,6 +109,10 @@ nav{
 
 /* HEADER SEARCH */
 
+#results{
+    min-height: 50vh;
+}
+
 .header-search{
     height: 30vh;
     background-color:#33ab74;
@@ -266,8 +270,8 @@ h1{
 
 footer{
     background-color: #292930;
-    display: flex;
-    position: relative;
+    height: 300px;
+
 }
 
 .footer__row{
