@@ -5,8 +5,8 @@ am awaiting the API key which will allow me to provide the financial statistics 
 
 **Features:**
 
-  - Search bar which can be submitted using enter or the magnifying glass. Also is fully response to screen size.
-  - Website is compatible with all screens ranging from small smart phone screens to large desktop monitors.
-  - Uses the free version of OpenSea API to provide NFT name, description of NFT on hover of name, and slug of NFT collection.
-  - Fully responsive website with sleek design.
-  - Functioning loading spinner state which is loaded whilst API data is fetched.
+  -Search bar which can be submitted using enter or the magnifying glass. Also is fully response to screen size.
+  -Website is compatible with all screens ranging from small smart phone screens to large desktop monitors.
+  -Uses the free version of OpenSea API to provide NFT name, description of NFT on hover of name, and slug of NFT collection.
+  -Fully responsive website with sleek design.
+  -Functioning loading spinner state which is loaded whilst API data is fetched.
