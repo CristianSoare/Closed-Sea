@@ -14,3 +14,6 @@ am awaiting the API key which will allow me to provide the financial statistics 
   -Fully responsive website with sleek design.
   
   -Functioning loading spinner state which is loaded whilst API data is fetched.
+  
+  If anyone would like to test the website's functionality, feel free to use the following ETH address and verify its assets using the website:
+  **0x6efb854fb7bcc9cef5bb9be8b542584a836ecf06**
